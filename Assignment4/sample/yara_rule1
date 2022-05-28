@@ -1,0 +1,7 @@
+rule Found_Name_and_Rollno
+{
+	strings:
+		$roll_no="1063"
+	condition:
+		all of them
+}

@@ -1,0 +1,15 @@
+rule Found_Name
+{
+	strings:
+		$name="Asfand"
+	condition:
+		all of them
+}
+
+rule Found_Rollno
+{
+	strings:
+		$roll_no="1063"
+	condition:
+		all of them
+}
